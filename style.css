@@ -2,26 +2,29 @@
   background-color: blanchedalmond;
 }
 
+#Home img {
+  padding-left: 500px;
+}
 h1 {
   text-align: center;
-  font-weight: bolder;
   font-size: 30px;
-  color: darkkhaki;
+}
+#Home h1 {
+  color: red;
 }
 
-#bio ul > li {
+#Bio h1 {
+  color: Blue;
+}
+
+#Blog h1 {
+  color: Green;
+}
+
+#Bio li {
   font-style: italic;
+  list-style: none;
+  text-align: center;
+  font-weight: bolder;
   font-size: 20px;
-  color: crimson;
-  text-align: center;
-}
-
-.siblings li {
-  color: green;
-}
-
-#Home img {
-  height: 30px;
-  width: 20px;
-  text-align: center;
 }
